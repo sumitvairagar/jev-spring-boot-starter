@@ -1,0 +1,4 @@
+dev/jev/autoconfigure/JevProperties.class
+META-INF/spring-configuration-metadata.json
+dev/jev/autoconfigure/JevAutoConfiguration.class
+dev/jev/autoconfigure/JevProperties$RiskAdvisor.class

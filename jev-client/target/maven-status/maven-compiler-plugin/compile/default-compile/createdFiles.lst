@@ -1,0 +1,17 @@
+dev/jev/client/JevClient$JevIOException.class
+dev/jev/model/Question.class
+dev/jev/model/JevRequest$Builder.class
+dev/jev/model/Question$Choice.class
+dev/jev/model/JevResponse$Answer.class
+dev/jev/model/Question$Noul.class
+dev/jev/client/JevClient.class
+dev/jev/client/JevClient$JevException.class
+dev/jev/model/Question$Score.class
+dev/jev/model/JevResponse$ScoreAnswer.class
+dev/jev/model/JevResponse.class
+dev/jev/model/JevResponse$ChoiceAnswer.class
+dev/jev/client/JevClient$Builder.class
+dev/jev/model/JevRequest.class
+dev/jev/model/JevResponseDeserializer.class
+dev/jev/model/JevResponse$RawAnswer.class
+dev/jev/model/JevResponse$NoulAnswer.class

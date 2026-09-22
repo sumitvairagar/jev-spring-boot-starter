@@ -1,0 +1,65 @@
+{
+  "groups": [
+    {
+      "name": "jev",
+      "type": "dev.jev.autoconfigure.JevProperties",
+      "sourceType": "dev.jev.autoconfigure.JevProperties"
+    },
+    {
+      "name": "jev.risk-advisor",
+      "type": "dev.jev.autoconfigure.JevProperties$RiskAdvisor",
+      "sourceType": "dev.jev.autoconfigure.JevProperties",
+      "sourceMethod": "getRiskAdvisor()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jev.api-key",
+      "type": "java.lang.String",
+      "description": "TypeSafe API key. Required unless {@code jev.enabled=false}.",
+      "sourceType": "dev.jev.autoconfigure.JevProperties"
+    },
+    {
+      "name": "jev.base-url",
+      "type": "java.lang.String",
+      "description": "API base URL. Defaults to {@code https:\/\/api.typesafe.ai}.",
+      "sourceType": "dev.jev.autoconfigure.JevProperties"
+    },
+    {
+      "name": "jev.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Set {@code false} to disable all Jev beans. Default: {@code true}.",
+      "sourceType": "dev.jev.autoconfigure.JevProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "jev.risk-advisor.block-threshold",
+      "type": "java.lang.Double",
+      "sourceType": "dev.jev.autoconfigure.JevProperties$RiskAdvisor",
+      "defaultValue": 0.9
+    },
+    {
+      "name": "jev.risk-advisor.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "dev.jev.autoconfigure.JevProperties$RiskAdvisor",
+      "defaultValue": true
+    },
+    {
+      "name": "jev.risk-advisor.review-threshold",
+      "type": "java.lang.Double",
+      "sourceType": "dev.jev.autoconfigure.JevProperties$RiskAdvisor",
+      "defaultValue": 0.6
+    },
+    {
+      "name": "jev.timeout",
+      "type": "java.time.Duration",
+      "description": "HTTP request timeout. Defaults to 10 seconds.",
+      "sourceType": "dev.jev.autoconfigure.JevProperties",
+      "defaultValue": "10s"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
